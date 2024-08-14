@@ -663,6 +663,15 @@ nav{
 }
 
 @media (width <540px){
+  .header_container h1{
+  font-size: 3rem;
+}
+.header_container h1 span{
+  font-size: 3.1rem;
+}
+.header_container p{
+  font-size: 1.5rem;
+}
   .footer_container{
     text-align: center;
     align-items: center;

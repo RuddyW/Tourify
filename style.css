@@ -664,13 +664,13 @@ nav{
 
 @media (width <540px){
   .header_container h1{
-  font-size: 3rem;
+  font-size: 2.8rem;
 }
 .header_container h1 span{
-  font-size: 3.1rem;
+  font-size: 2.9rem;
 }
 .header_container p{
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
   .footer_container{
     text-align: center;

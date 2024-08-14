@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Tourify</title>
+
+<!------------Links for fonts and icons----------->
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+</head>
+
+<body>
+  <!------------------Header navigation----------------->
+  <nav>
+    <div class="nav_header">
+      <div class="nav_logo">
+        <a href="#" class="logo">Tour<span>ify</span></a>
+      </div>
+
+      <div class="nav_menu_btn" id="menu-btn">
+        <i class="ri-menu-line"></i>
+      </div>
+    </div>
+    
+    <ul class="nav_links" id="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#service">Services</a></li>
+      <li><a href="#destination">Destinations</a></li>
+      <li><a href="#package">Package</a></li>
+      <li><a href="#client">Clients</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+  </nav>
+
+  <!------------------Hero section----------------->
+  <header class="header" id="home">
+    <div class="section_container header_container">
+      <h1>Journey<br><span>Beyond Borders.</span></h1>
+      <p>
+        Embark on adventures that go beyond the expected.
+      </p>
+
+      <form action="/">
+        <div class="input_group">
+          <span><i class="ri-map-2-fill"></i></span>
+          <input type="text" placeholder="Where are you going?">
+        </div>
+
+        <div class="input_group">
+          <span><i class="ri-map-pin-2-fill"></i></span>
+          <input type="text" placeholder="Location">
+        </div>
+
+        <div class="input_group">
+          <span><i class="ri-list-ordered-2"></i></span>
+          <input type="text" placeholder="Type">
+        </div>
+
+        <div class="input_group">
+          <button class="btn">Search</button>
+        </div>
+
+      </form>
+    </div>
+  </header>
+
+  <!------------------Services section----------------->
+  <div class="service-title" id="service">
+    <h2 class="section_header">Our Services</h2>
+      <p class="section_description">
+        Get the best services available.
+      </p>
+  </div>
+  <section class="section_container feature_container">
+    <div class="feature_card">
+      <img src="Media/feature-1.png" alt="feature">
+      <div>
+        <h4>Best Destinations</h4>
+        <p>Venture into realms where dreams meet reality.</p>
+      </div>
+    </div>
+
+    <div class="feature_card">
+      <img src="Media/feature-2.png" alt="feature">
+      <div>
+        <h4>Top Deal Guarantee</h4>
+        <p>Get the best value with our price guarantee.</p>
+      </div>
+    </div>
+
+    <div class="feature_card">
+      <img src="Media/feature-3.png" alt="feature">
+      <div>
+        <h4>Instant Booking</h4>
+        <p>Enjoy immediate confirmation with our instant booking service.</p>
+      </div>
+    </div>
+  </section>
+
+  <!------------------Destinations section----------------->
+  <section class="destination" id="destination">
+    <div class="section_container destination_container">
+      <h2 class="section_header">Top Destinations</h2>
+      <p class="section_description">
+        Find out what are the top destinations in the world.
+      </p>
+      <div class="destination_grid">
+        <a href="https://www.italia.it/en"><div class="destination_card">
+          <img src="Media/destination-italy.jpg" alt="destination">
+          <div class="destination_content">Italy</div>
+        </div></a>
+
+        <a href="https://www.spain.info/"><div class="destination_card">
+          <img src="Media/destination-spain.jpg" alt="destination">
+          <div class="destination_content">Spain</div>
+        </div></a>
+        
+        <a href="https://www.france.fr/en/"><div class="destination_card">
+          <img src="Media/destination-france.jpg" alt="destination">
+          <div class="destination_content">France</div>
+        </div></a>
+
+        <a href="https://www.japan-guide.com/"><div class="destination_card">
+          <img src="Media/destination-japan.jpg" alt="destination">
+          <div class="destination_content">Japan</div>
+        </div></a>
+
+        <a href="https://www.australia.com/en"><div class="destination_card">
+          <img src="Media/destination-australia.jpg" alt="destination">
+          <div class="destination_content">Australia</div>
+        </div></a>
+
+        <a href="https://www.tourismthailand.org/home"><div class="destination_card">
+          <img src="Media/destination-thailand.jpg" alt="destination">
+          <div class="destination_content">Thailand</div>
+        </div></a>
+      </div>
+    </div>
+  </section>
+
+  <!------------------Package section 1----------------->
+  <section class="discount">
+    <div class="section_container discount_container">
+      <h2>
+        Become a member
+        <br>
+        <span>get up to 60% off before summer!</span>
+      </h2>
+      <div class="discount_btn">
+        <a href="mailto:tourify@gmail.com"><button class="btn">Join Us</button></a>
+      </div>
+    </div>
+  </section>
+  <!------------------Package section 2----------------->
+  <section class="section_container package_container" id="package">
+    <h2 class="section_header">Featured Packages</h2>
+    <p class="section_description">
+      We will help you find trips that are affordable!
+    </p>
+    <div class="package_grid">
+      <div class="package_card">
+        <img src="Media/package-thailand.jpg" alt="package">
+        <div class="package_card_details">
+          <h4>Thailand City Tour</h4>
+          <p>
+            Explore the vibrant culture and tropical beauty of Thailand with our tour package, offering an unforgettable mix of luxury resorts, island adventures, and cultural experiences at an unbeatable price.
+          </p>
+          <div>
+            <a href="mailto:tourify@gmail.com"><button class="btn">Book Now</button></a>
+            <h3>$899</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="package_card">
+        <img src="Media/package-portugal.jpg" alt="package">
+        <div class="package_card_details">
+          <h4>Portugal City Tour</h4>
+          <p>
+            Experience the charm of Portugal with our tour package, including visits to historic cities, scenic coastlines, and enchanting landscapes, all while enjoying top-notch accommodations and guided tours.
+          </p>
+          <div>
+            <a href="mailto:tourify@gmail.com"><button class="btn">Book Now</button></a>
+            <h3>$999</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="package_card">
+        <img src="Media/package-mexico.jpg" alt="package">
+        <div class="package_card_details">
+          <h4>Mexico City Tour</h4>
+          <p>
+            Indulge in a sun-soaked Mexican getaway with our tour package, featuring all-inclusive resorts, exciting excursions, and the vibrant atmosphere of destinations like Cancun and Cabo San Lucas.
+          </p>
+          <div>
+            <a href="mailto:tourify@gmail.com"><button class="btn">Book Now</button></a>
+            <h3>$599</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="package_card">
+        <img src="Media/package-greece.jpg" alt="package">
+        <div class="package_card_details">
+          <h4>Greece City Tour</h4>
+          <p>
+            Journey through Greece’s ancient history and breathtaking islands with our budget-friendly package. From the iconic Acropolis in Athens to the serene beaches of Santorini, immerse yourself in the rich culture and beauty of Greece.
+          </p>
+          <div>
+            <a href="mailto:tourify@gmail.com"><button class="btn">Book Now</button></a>
+            <h3>$849</h3>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!------------------Clients section----------------->
+  <section class="section_container client_container" id="client">
+    <h2 class="section_header">Client Reviews</h2>
+    <p class="section_description">
+      We have many happy customers who booked holidays with us.
+    </p>
+
+    <!-- Slider main container -->
+  <div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide">
+        <div class="client_card">
+          <img src="Media/client-2.jpg" alt="client">
+          <span><i class="ri-double-quotes-1"></i></span>
+          <p>
+            I had an amazing experience with this agency. Everything was seamless from start to finish. Highly recommended for hassle-free travel!
+          </p>
+          <h4>Emily Thompson</h4>
+          <h5>Graphic Designer</h5>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="client_card">
+          <img src="Media/client-1.jpg" alt="client">
+          <span><i class="ri-double-quotes-1"></i></span>
+          <p>
+            Incredible service and attention to detail. My trip to Japan was unforgettable, thanks to their meticulous planning. Five stars!
+          </p>
+          <h4>Michael Perez</h4>
+          <h5>Software Engineer</h5>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="client_card">
+          <img src="Media/client-4.jpg" alt="client">
+          <span><i class="ri-double-quotes-1"></i></span>
+          <p>
+            This agency exceeded all my expectations. Their Thailand package was perfectly tailored to my needs. I can't wait to book my next adventure!
+          </p>
+          <h4>Olivia Blunt</h4>
+          <h5>Teacher</h5>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="client_card">
+          <img src="Media/client-3.jpg" alt="client">
+          <span><i class="ri-double-quotes-1"></i></span>
+          <p>
+            The team at the agency made my Portugal trip a dream come true. From the accommodations to the guided tours, everything was perfect. Highly recommended
+          </p>
+          <h4>David Smith</h4>
+          <h5>Financial Advisor</h5>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="client_card">
+          <img src="Media/client-5.jpg" alt="client">
+          <span><i class="ri-double-quotes-1"></i></span>
+          <p>
+            A top-notch travel agency that knows how to deliver exceptional experiences. My journey was smooth and stress-free, all thanks to their expert planning
+          </p>
+          <h4>Ethan Patel</h4>
+          <h5>Journalist</h5>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="client_card">
+          <img src="Media/client-6.jpg" alt="client">
+          <span><i class="ri-double-quotes-1"></i></span>
+          <p>
+            I am so impressed with the level of service I received. The Australia tour was beyond my wildest dreams. I’ll definitely be using their services again.
+          </p>
+          <h4>Sophia Garcia</h4>
+          <h5>Marketing Manager</h5>
+        </div>
+      </div>
+
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+  </section>
+
+  <!------------------Subscribe section----------------->
+  <section class="subscribe">
+    <div class="section_container subscribe_container">
+      <h2>Subscribe to our newsletter for updates</h2>
+      <div>
+        <p>For the best recommendation. Please subscribe to us.</p>
+        <form action="/">
+          <input type="text" placeholder="Enter Your Email Here">
+          <a href="/"><button class="btn">SUBSCRIBE</button></a>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!------------------Footer section----------------->
+  <footer class="footer">
+    <div class="section_container footer_container">
+      <div class="footer_col">
+        <div class="footer_logo">
+          <a href="index.html" class="logo">Tour<span>ify</span></a>
+        </div>
+        <p>
+          Embark on adventures that go beyond the expected.
+        </p>
+        <h4>Connect With Us</h4>
+        <ul class="footer_socials">
+          <li>
+            <a href="https://www.instagram.com" target="_blank"><i class="ri-instagram-fill"></i></a>
+          </li>
+          <li>
+            <a href="https://www.twitter.com" target="_blank"><i class="ri-twitter-x-fill"></i></a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com" target="_blank"><i class="ri-facebook-fill"></i></a>
+          </li>
+          <li>
+            <a href="https://www.tiktok.com" target="_blank"><i class="ri-tiktok-fill"></i></a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com" target="_blank"><i class="ri-youtube-fill"></i></a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer_col">
+        <h4>DESTINATIONS</h4>
+        <ul class="footer_links">
+          <li><a href="https://www.italia.it/en" target="_blank">Italy</a></li>
+          <li><a href="https://www.spain.info/" target="_blank">Spain</a></li>
+          <li><a href="https://www.france.fr/en/" target="_blank">France</a></li>
+          <li><a href="https://www.japan-guide.com/" target="_blank">Japan</a></li>
+          <li><a href="https://www.australia.com/en" target="_blank">Australia</a></li>
+          <li><a href="https://www.tourismthailand.org/home" target="_blank">Thailand</a></li>
+        </ul>
+      </div>
+
+      <div class="footer_col">
+        <h4>QUICK LINKS</h4>
+        <ul class="footer_links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="tel:+26812624860">Contact Us</a></li>
+          <li><a href="#client">Testimonials</a></li>
+        </ul>
+      </div>
+
+      <div class="footer_col">
+        <h4>OUR ACTIVITIES</h4>
+        <ul class="footer_links">
+          <li><a href="https://en.wikipedia.org/wiki/Safari" target="_blank">Safari Adventure</a></li>
+          <li><a href="https://en.wikipedia.org/wiki/Whale_watching" target="_blank">Whale Watching</a></li>
+          <li><a href="https://en.wikipedia.org/wiki/Shark_cage_diving" target="_blank">Shark Cage Diving</a></li>
+          <li><a href="https://en.wikipedia.org/wiki/Culinary_tourism" target="_blank">Culinary tourism</a></li>
+          <li><a href="https://en.wikipedia.org/wiki/Riding_horse" target="_blank">Horse riding</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer_bar">
+      2024 © <a href="https://ruddyw.github.io/M-Techy-official/">M-Techy</a>, All Rights Reserved.
+    </div>
+  </footer>
+  
+
+  <!--------------Script------------->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>
